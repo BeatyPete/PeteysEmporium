@@ -1,0 +1,52 @@
+/* import './status.css' */
+import {useState} from 'react'
+import ProjectList from '../components/ProjectList';
+import ProjectDisplay from '../components/ProjectDisplay';
+
+function Projects() {
+  const [label, setLabel] = useState('PROJECTS')
+
+  const projectDetails = [
+    {
+      title: 'moviehub',
+      description: 'A collaborative project that lets a user create a list of movies they would like to watch, using the omdb api, jquery, and local storage. The site also has multiple ways to show the user trending movies and topics that they can then put on their list. After viewing they can then check the movie off their list and organize and rank it with other movies they have seen.',
+      githubLink: 'https://github.com/clintonstrange/movie-hub',
+      siteLink: 'https://clintonstrange.github.io/movie-hub/'
+    },
+    {
+      title: 'bookfast-club',
+      description: '',
+      githubLink: 'https://github.com/BeatyPete/the-bookfast-club',
+      siteLink: 'https://the-bookfast-club.herokuapp.com/'
+    },
+    {
+      title: 'pipForPi',
+      description: 'A recreation of the pip-boy from Fallout 4 in React. The goal of this is to create a front end that simulates the same functions as the in-game pip-boy, both through normal browser event like mouse clicks, as well as accepting input from a raspberry pi’s gpio pins. Ideally any person could clone the code and have a competent UI to go with their own pip-boy prop.',
+      githubLink: 'https://github.com/BeatyPete/pip-pip',
+      siteLink: 'https://www.youtube.com/watch?v=1g_UHV42jOA&ab_channel=Raz'
+    },
+    {
+      title: 'pokefinderTCG',
+      description: '',
+      githubLink: 'https://github.com/Spody10/PokefinderTCG',
+      siteLink: 'https://pokefinder-tcg.herokuapp.com/'
+    }
+  ]
+
+    return (
+        <section className='projects'>
+
+        <div className='title-container'>
+          <div className='section-title'>{label}</div>
+        </div>
+
+        {label === 'PROJECTS' && (<ProjectList setLabel={setLabel}></ProjectList>)}
+        {label === 'MOVIE HUB' && (<ProjectDisplay setLabel={setLabel} projectDetails={projectDetails[0]}></ProjectDisplay>)}
+        {label === 'BOOKFAST CLUB' && (<ProjectDisplay setLabel={setLabel} projectDetails={projectDetails[1]}></ProjectDisplay>)}
+        {label === 'PIP FOR PI' && (<ProjectDisplay setLabel={setLabel} projectDetails={projectDetails[2]}></ProjectDisplay>)}
+        {label === 'POKEFINDERTCG' && (<ProjectDisplay setLabel={setLabel} projectDetails={projectDetails[3]}></ProjectDisplay>)}
+
+      </section>
+)}
+
+export default Projects;
