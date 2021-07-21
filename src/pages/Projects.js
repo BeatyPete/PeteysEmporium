@@ -15,7 +15,7 @@ function Projects() {
     },
     {
       title: 'bookfast-club',
-      description: '',
+      description: 'A social network, where people can create an account and share what books they recommend to others. Users can like what others post and add the book to a list for them to read, which is tracked on the users profile. Made with the handlebars templating language, jquery, and a MySQL backend.',
       githubLink: 'https://github.com/BeatyPete/the-bookfast-club',
       siteLink: 'https://the-bookfast-club.herokuapp.com/'
     },
@@ -27,7 +27,7 @@ function Projects() {
     },
     {
       title: 'pokefinderTCG',
-      description: '',
+      description: 'A MERN stack, trading platform for pokemon cards, themed after the gen 3 games’ UI. Users can upload details of the cards they would like to trade, images are stored using Cloudinary and data is fetched with graphql.Trading through users is done through the two parties contacting each other through email and login is handled with jsonwebtokens. ',
       githubLink: 'https://github.com/Spody10/PokefinderTCG',
       siteLink: 'https://pokefinder-tcg.herokuapp.com/'
     }
