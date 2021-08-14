@@ -21,9 +21,9 @@ function Projects() {
     },
     {
       title: 'pipForPi',
-      description: 'A recreation of the pip-boy from Fallout 4 in React. The goal of this is to create a front end that simulates the same functions as the in-game pip-boy, both through normal browser event like mouse clicks, as well as accepting input from a raspberry pi’s gpio pins. Ideally any person could clone the code and have a competent UI to go with their own pip-boy prop.',
+      description: 'A recreation of the pip-boy from Fallout 4 in React. The goal of this is to create a front end that simulates the same functions as the in-game pip-boy, both through normal browser events like mouse clicks, as well as accepting input from a raspberry pi’s gpio pins. Ideally any person could clone the code and have a competent UI to go with their own pip-boy prop.',
       githubLink: 'https://github.com/BeatyPete/pip-pip',
-      siteLink: 'https://www.youtube.com/watch?v=1g_UHV42jOA&ab_channel=Raz'
+      siteLink: 'https://beatypete.github.io/Pip4Pi/'
     },
     {
       title: 'pokefinderTCG',

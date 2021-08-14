@@ -281,3 +281,46 @@ nav button {
   border-bottom-right-radius: 40rem;
   border: .04ch black solid;
 }
+
+@media only screen and (max-width: 1000px) {
+  .projects {
+      display: flex;
+      flex-direction: column;
+      height: auto;
+      min-height: 100vh;
+  }
+  .title-container {
+    justify-content: center;
+    padding: 12vw;
+  }
+  .section-title {
+    writing-mode: inherit;
+    text-orientation: inherit;
+    border-bottom: 8px double var(--main-color);
+    border-right: none;
+    font-size: 10vw;
+  }
+  .project-grid {
+    width: auto;
+    height: auto;
+    grid-gap: 6vh;
+    margin: 0 auto;
+  }
+  .project-container {
+    flex-direction: column;
+    justify-self: center;
+    font-size: 11vw;
+    text-align: center;
+  }
+  .project-svg {
+    width: 14vw;
+    height: 16vw;
+  }
+  .poke-img {
+    width: 15vw;
+    height: 15vw;
+  }
+  .poke-img h1 {
+    font-size: 6vw;
+  }
+}

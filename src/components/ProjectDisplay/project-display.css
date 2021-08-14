@@ -81,3 +81,28 @@
 .git:focus::before, .git:focus::after {
     transform: rotateX(0deg);
 }
+
+@media only screen and (max-width: 1000px) {
+    .project-display {
+        grid: none;
+        padding: 0 9vw;
+    }
+    .project-display button {
+        font-size: 6vw;
+    padding: .6vw 1.4vw;
+    }
+    .project-display p {
+        font-size: 4.3vw;
+    text-align: center;
+    }
+    .project-links {
+        font-size: 17vw;
+    }
+    .site::after {
+        font-size: 4.5vw;
+    }
+    .git::before, .git::after {
+        width: 1.6vw;
+        height: 3vw;
+    }
+  }

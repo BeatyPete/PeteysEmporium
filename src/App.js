@@ -5,7 +5,7 @@ import Projects from "./pages/Projects";
 function App() {
   return (
     <>
-      <header>
+      {/* <header>
         
           <h1>
             <i className="fas fa-home"></i>
@@ -25,7 +25,7 @@ function App() {
           <h2>Christian's</h2>
           <h2>Portfolio</h2>
         </div>
-      </section>
+      </section> */}
 
       <Projects></Projects>
     </>
