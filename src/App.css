@@ -189,7 +189,7 @@ nav button {
     animation-name: movie-roll-1;
  }
  #movie:hover .fa-film:after {
-  opacity: 100%;
+  /* opacity: 100; */
   animation-duration: .3s; 
   animation-iteration-count: infinite; 
   animation-timing-function: linear;
