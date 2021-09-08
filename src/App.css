@@ -165,32 +165,70 @@ nav button {
   margin-left: 2vw;
 }
 
-.fa-film {
+.film-strip {
+  overflow: hidden;
+  width: 5vw;
+}
+.film-strip path:first-child {
+  transform: translateY(-43%);
+}
+.film-strip path:last-child {
+  transform: translateY(45%);
+}
+
+#movie:hover .film-strip path:first-child {
+  position: relative;
+  animation-duration: .3s; 
+   animation-iteration-count: infinite; 
+   animation-timing-function: linear;
+   animation-name: movie-roll-1;
+}
+#movie:hover .film-strip path:last-child {
+ animation-duration: .3s; 
+ animation-iteration-count: infinite; 
+ animation-timing-function: linear;
+ animation-name: movie-roll-2;
+}
+
+@keyframes movie-roll-1 { 
+ 0% {
+  transform: translateY(-39%);
+ }
+ 100% {
+  transform: translateY(-83%);
+ }
+} 
+@keyframes movie-roll-2 { 
+ 0% {
+  transform: translateY(50%);
+ }
+ 100% {
+  transform: translateY(9%);
+ }
+}
+/* .fa-film {
   overflow: hidden;
   position: relative;
 }
 .fa-film:before {
   position: relative;
   bottom: 32%;
-  /* opacity: 0; */
 }
 .fa-film:after {
   content: "\f008";
   position: absolute;
   top: 43%;
   right: 0;
-  /* opacity: 0; */
 }
  #movie:hover .fa-film:before {
    position: relative;
-   animation-duration: .3s; 
+   animation-duration: .2s; 
     animation-iteration-count: infinite; 
     animation-timing-function: linear;
     animation-name: movie-roll-1;
  }
  #movie:hover .fa-film:after {
-  opacity: 100%;
-  animation-duration: .3s; 
+  animation-duration: .2s; 
   animation-iteration-count: infinite; 
   animation-timing-function: linear;
   animation-name: movie-roll-2;
@@ -211,7 +249,7 @@ nav button {
   100% {
     top: 24%;
   }
-} 
+}  */
 
 #pipboy svg {
   fill: rgb(35 189 34);

@@ -27,8 +27,14 @@ function ProjectList({setLabel}) {
     return (
         <div className='project-grid'>
             <div onClick={goToProject} className='project-container' id='movie'>
-              <div className='flex'>
-                <i className="fas fa-film"></i>
+              <div className='flex project-svg'>
+              <svg className='film-strip' xmlns="http://www.w3.org/2000/svg" viewBox="0 -0.5 18 18" shape-rendering="crispEdges">
+              {/* <path xmlns="http://www.w3.org/2000/svg" stroke="#000000" d="M0 0h6M12 0h6M0 1h6M12 1h6M0 2h2M4 2h10M16 2h2M0 3h2M4 3h10M16 3h2M0 4h6M12 4h6M0 5h6M12 5h6M0 6h2M4 6h2M12 6h2M16 6h2M0 7h2M4 7h2M12 7h2M16 7h2M0 8h18M0 9h18M0 10h2M4 10h2M12 10h2M16 10h2M0 11h2M4 11h2M12 11h2M16 11h2M0 12h6M12 12h6M0 13h6M12 13h6M0 14h2M4 14h10M16 14h2M0 15h2M4 15h10M16 15h2M0 16h6M12 16h6M0 17h6M12 17h6"/>
+              <path xmlns="http://www.w3.org/2000/svg" stroke="#000000" d="M0 0h6M12 0h6M0 1h6M12 1h6M0 2h2M4 2h10M16 2h2M0 3h2M4 3h10M16 3h2M0 4h6M12 4h6M0 5h6M12 5h6M0 6h2M4 6h2M12 6h2M16 6h2M0 7h2M4 7h2M12 7h2M16 7h2M0 8h18M0 9h18M0 10h2M4 10h2M12 10h2M16 10h2M0 11h2M4 11h2M12 11h2M16 11h2M0 12h6M12 12h6M0 13h6M12 13h6M0 14h2M4 14h10M16 14h2M0 15h2M4 15h10M16 15h2M0 16h6M12 16h6M0 17h6M12 17h6"/>
+               */}
+                <path xmlns="http://www.w3.org/2000/svg" stroke="#000000" d="M0 0h18M0 1h18M0 2h2M4 2h2M12 2h2M16 2h2M0 3h2M4 3h2M12 3h2M16 3h2M0 4h6M12 4h6M0 5h6M12 5h6M0 6h2M4 6h2M12 6h2M16 6h2M0 7h2M4 7h2M12 7h2M16 7h2M0 8h18M0 9h18M0 10h2M4 10h2M12 10h2M16 10h2M0 11h2M4 11h2M12 11h2M16 11h2M0 12h6M12 12h6M0 13h6M12 13h6M0 14h2M4 14h2M12 14h2M16 14h2M0 15h2M4 15h2M12 15h2M16 15h2M0 16h18M0 17h18"/>
+                <path xmlns="http://www.w3.org/2000/svg" stroke="#000000" d="M0 0h18M0 1h18M0 2h2M4 2h2M12 2h2M16 2h2M0 3h2M4 3h2M12 3h2M16 3h2M0 4h6M12 4h6M0 5h6M12 5h6M0 6h2M4 6h2M12 6h2M16 6h2M0 7h2M4 7h2M12 7h2M16 7h2M0 8h18M0 9h18M0 10h2M4 10h2M12 10h2M16 10h2M0 11h2M4 11h2M12 11h2M16 11h2M0 12h6M12 12h6M0 13h6M12 13h6M0 14h2M4 14h2M12 14h2M16 14h2M0 15h2M4 15h2M12 15h2M16 15h2M0 16h18M0 17h18"/>
+              </svg>
               </div>
               <div className='project-title'>Movie Hub</div>
             </div>
