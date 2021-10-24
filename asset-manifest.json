@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/PeteysEmporium/static/css/main.9842dc85.chunk.css",
-    "main.js": "/PeteysEmporium/static/js/main.69e842b8.chunk.js",
-    "main.js.map": "/PeteysEmporium/static/js/main.69e842b8.chunk.js.map",
+    "main.css": "/PeteysEmporium/static/css/main.356fadba.chunk.css",
+    "main.js": "/PeteysEmporium/static/js/main.aca28598.chunk.js",
+    "main.js.map": "/PeteysEmporium/static/js/main.aca28598.chunk.js.map",
     "runtime-main.js": "/PeteysEmporium/static/js/runtime-main.2100b973.js",
     "runtime-main.js.map": "/PeteysEmporium/static/js/runtime-main.2100b973.js.map",
     "static/js/2.7e66b94c.chunk.js": "/PeteysEmporium/static/js/2.7e66b94c.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.9e3f7f02.chunk.js": "/PeteysEmporium/static/js/3.9e3f7f02.chunk.js",
     "static/js/3.9e3f7f02.chunk.js.map": "/PeteysEmporium/static/js/3.9e3f7f02.chunk.js.map",
     "index.html": "/PeteysEmporium/index.html",
-    "static/css/main.9842dc85.chunk.css.map": "/PeteysEmporium/static/css/main.9842dc85.chunk.css.map",
+    "static/css/main.356fadba.chunk.css.map": "/PeteysEmporium/static/css/main.356fadba.chunk.css.map",
     "static/js/2.7e66b94c.chunk.js.LICENSE.txt": "/PeteysEmporium/static/js/2.7e66b94c.chunk.js.LICENSE.txt",
     "static/media/bookfast-club.png": "/PeteysEmporium/static/media/bookfast-club.c7b30f31.png",
     "static/media/moviehub.png": "/PeteysEmporium/static/media/moviehub.837a4dcf.png",
@@ -20,7 +20,7 @@
   "entrypoints": [
     "static/js/runtime-main.2100b973.js",
     "static/js/2.7e66b94c.chunk.js",
-    "static/css/main.9842dc85.chunk.css",
-    "static/js/main.69e842b8.chunk.js"
+    "static/css/main.356fadba.chunk.css",
+    "static/js/main.aca28598.chunk.js"
   ]
 }
