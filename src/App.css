@@ -139,6 +139,12 @@ nav button {
     font-family: 'Zen Tokyo Zoo', cursive;
     border-right: 8px double var(--main-color);
 }
+#BOOKFASTCLUB {
+  font-size: 2.5vw;
+}
+#POKEFINDERTCG {
+  font-size: 2.5vw;
+}
 
 .project-grid {
   display: grid;
@@ -160,6 +166,7 @@ nav button {
 .project-svg {
   width: 5vw;
   height: 6vw;
+  position: relative;
 }
 .project-title {
   margin-left: 2vw;
@@ -167,7 +174,6 @@ nav button {
 
 .film-strip {
   overflow: hidden;
-  width: 5vw;
 }
 .film-strip path:first-child {
   transform: translateY(-43%);
@@ -206,50 +212,26 @@ nav button {
   transform: translateY(9%);
  }
 }
-/* .fa-film {
-  overflow: hidden;
-  position: relative;
-}
-.fa-film:before {
-  position: relative;
-  bottom: 32%;
-}
-.fa-film:after {
-  content: "\f008";
-  position: absolute;
-  top: 43%;
-  right: 0;
-}
- #movie:hover .fa-film:before {
-   position: relative;
-   animation-duration: .2s; 
-    animation-iteration-count: infinite; 
-    animation-timing-function: linear;
-    animation-name: movie-roll-1;
- }
- #movie:hover .fa-film:after {
-  animation-duration: .2s; 
-  animation-iteration-count: infinite; 
-  animation-timing-function: linear;
-  animation-name: movie-roll-2;
-}
 
- @keyframes movie-roll-1 { 
-  0% {
-    bottom: 32%;
-  }
-  100% {
-    bottom: 51%;
-  }
-} 
-@keyframes movie-roll-2 { 
-  0% {
-    top: 43%;
-  }
-  100% {
-    top: 24%;
-  }
-}  */
+#bookSVG::before, #bookSVG::after{
+  content: "| | |";
+    position: absolute;
+    font-size: 36%;
+    transform: rotateZ(90deg);
+    bottom: 28%;
+    opacity: 0;
+    transition: opacity .5s linear;
+}
+#bookSVG::before {
+  right: 50%;
+}
+#bookSVG::after {
+  right: 2%;
+  
+}
+#book:hover #bookSVG::after, #book:hover #bookSVG::before {
+  opacity: 1;
+}
 
 #pipboy svg {
   fill: rgb(35 189 34);
@@ -338,6 +320,12 @@ nav button {
     border-right: none;
     font-size: 10vw;
   }
+  #BOOKFASTCLUB {
+    font-size: 10vw;
+  }
+  #POKEFINDERTCG {
+    font-size: 10vw;
+  }
   .project-grid {
     width: auto;
     height: auto;
@@ -354,6 +342,16 @@ nav button {
     width: 14vw;
     height: 16vw;
   }
+  #bookSVG::before, #bookSVG::after{
+      font-size: 46%;
+      bottom: 37%;
+  }
+  #bookSVG::before {
+    right: 49%;
+  }
+  #bookSVG::after {
+    right: 1%;
+  }  
   .poke-img {
     width: 15vw;
     height: 15vw;

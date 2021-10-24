@@ -37,7 +37,7 @@ function Projects() {
         <section className='projects'>
 
         <div className='title-container'>
-          <div className='section-title'>{label}</div>
+          <div className='section-title' id={label.replace(/\s/g, '')}>{label}</div>
         </div>
 
         {label === 'PROJECTS' && (<ProjectList setLabel={setLabel}></ProjectList>)}
